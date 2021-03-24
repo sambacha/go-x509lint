@@ -1,9 +1,9 @@
 #ifndef _ASN1_TIME_H_
 #define _ASN1_TIME_H_
 
+#include <openssl/asn1.h>
 #include <stdbool.h>
 #include <time.h>
-#include <openssl/asn1.h>
 
 /*
  * Converts an ASN1_TIME to a struct tm.  Only the fields tm_year, tm_mon,
@@ -16,7 +16,6 @@
  *
  * Returns true on success and false on failure.
  */
-bool _x509lint_asn1_time_to_tm(ASN1_TIME *time, struct tm *tm);
+bool _x509lint_asn1_time_to_tm(ASN1_TIME* time, struct tm* tm);
 
 #endif
-
