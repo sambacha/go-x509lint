@@ -1,0 +1,30 @@
+{
+  "name": "go-x509lint",
+  "version": "1.0.0",
+  "description": "x509 lint",
+  "main": "install.sh",
+  "scripts": {
+    "install": "sh install.sh",
+    "test": "make test",
+    "cleanup": "sh cleanup.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/go-x509lint.git"
+  },
+  "keywords": [
+    "x509",
+    "x509",
+    "lint",
+    "linter",
+    "certificate",
+    "certificate",
+    "authority"
+  ],
+  "author": "SEE CONTRIBUTORS",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sambacha/go-x509lint/issues"
+  },
+  "homepage": "https://github.com/sambacha/go-x509lint#readme"
+}
